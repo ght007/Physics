@@ -11,6 +11,10 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 import com.badlogic.gdx.math.Circle;
 import com.badlogic.gdx.math.Vector2;
 
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.util.Scanner;
+
 public class Button {
     private String text = "";
 
@@ -474,6 +478,13 @@ public class Button {
         } else if (isCircular) {
             textPos = new Vector2(this.x - textWidth / 2, this.y + textHeight / 2);
         }
+    }
+
+    public void format(String path) throws FileNotFoundException {
+        // Will customise the button to its extent with text file
+        File file = new File(path);
+        Scanner s = new Scanner(file);
+
     }
 
     public int getBorderThickness() {
