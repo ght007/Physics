@@ -12,7 +12,7 @@ import static io.eisaatif.physicssimapp.Extras.*;
 public class MainMenuScreen implements Screen {
     private Button math;
     private Button compsci;
-    private Button chemistry;
+    private Button logic;
     private Button physics;
     private final Application application;
     private final Viewport viewport;
@@ -53,15 +53,15 @@ public class MainMenuScreen implements Screen {
         physics.setEnlargeOnClick(true);
         physics.setEnlargeOnHover(false);
 
-        chemistry = new Button(-100 + WIDTH/4, -50 - HEIGHT/4, 200, 100);
-        chemistry.setHasBorder(true);
-        chemistry.setBorderThickness(2);
-        chemistry.setText("Open Physics", Extras.getFont());
-        chemistry.setTextColour(Color.WHITE);
-        chemistry.setColour(Color.DARK_GRAY);
-        chemistry.setBorderColour(new Color(0.0f, 0.7f, 0.0f, 0.0f));
-        chemistry.setEnlargeOnClick(true);
-        chemistry.setEnlargeOnHover(false);
+        logic = new Button(-100 + WIDTH/4, -50 - HEIGHT/4, 200, 100);
+        logic.setHasBorder(true);
+        logic.setBorderThickness(2);
+        logic.setText("Open Logic", Extras.getFont());
+        logic.setTextColour(Color.WHITE);
+        logic.setColour(Color.DARK_GRAY);
+        logic.setBorderColour(new Color(0.0f, 0.7f, 0.0f, 0.0f));
+        logic.setEnlargeOnClick(true);
+        logic.setEnlargeOnHover(false);
     }
 
     @Override
@@ -77,7 +77,7 @@ public class MainMenuScreen implements Screen {
         math.render(application.sr, application.batch, getMousePos(viewport));
         compsci.render(application.sr, application.batch, getMousePos(viewport));
         physics.render(application.sr, application.batch, getMousePos(viewport));
-        chemistry.render(application.sr, application.batch, getMousePos(viewport));
+        logic.render(application.sr, application.batch, getMousePos(viewport));
 
         if(math.isJustClickedOn(getMousePos(viewport))) {
             this.application.setScreen(new MainMathScreen(application));
