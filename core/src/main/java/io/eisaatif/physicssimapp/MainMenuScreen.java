@@ -82,6 +82,18 @@ public class MainMenuScreen implements Screen {
         if(math.isJustClickedOn(getMousePos(viewport))) {
             this.application.setScreen(new MainMathScreen(application));
         }
+
+        if(logic.isJustClickedOn(getMousePos(viewport))) {
+            this.application.setScreen(new MainLogicScreen(application));
+        }
+
+        if(compsci.isJustClickedOn(getMousePos(viewport))) {
+            this.application.setScreen(new MainCompSciScreen(application));
+        }
+
+        if(physics.isJustClickedOn(getMousePos(viewport))) {
+            this.application.setScreen(new MainPhysicsScreen(application));
+        }
     }
 
     @Override
@@ -107,5 +119,8 @@ public class MainMenuScreen implements Screen {
     @Override
     public void dispose() {
         math.dispose();
+        logic.dispose();
+        physics.dispose();
+        compsci.dispose();
     }
 }

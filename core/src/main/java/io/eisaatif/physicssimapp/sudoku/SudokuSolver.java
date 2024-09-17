@@ -33,7 +33,7 @@ public class SudokuSolver {
         return sudoku;
     }
 
-    public int solutionToCell(int i, int j) {
+    private int solutionToCell(int i, int j) {
         Cell cell = new Cell(i, j, new ArrayList<Integer>(), sudoku);
         ArrayList<Integer> solsRow = new ArrayList<>();
         ArrayList<Integer> solsCol = new ArrayList<>();
@@ -92,6 +92,10 @@ public class SudokuSolver {
         res.retainAll(b);
         res.retainAll(c);
         return res;
+    }
+
+    public static int[][] backtrack(int[][] field) {
+        return field;
     }
 }
 
