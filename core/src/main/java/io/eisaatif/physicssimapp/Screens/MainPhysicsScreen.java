@@ -1,6 +1,7 @@
-package io.eisaatif.physicssimapp;
+package io.eisaatif.physicssimapp.Screens;
 
 import com.badlogic.gdx.Screen;
+import io.eisaatif.physicssimapp.Application;
 
 public class MainPhysicsScreen implements Screen {
     private Application application;

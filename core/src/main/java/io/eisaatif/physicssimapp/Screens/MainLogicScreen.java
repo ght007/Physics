@@ -1,13 +1,16 @@
-package io.eisaatif.physicssimapp;
+package io.eisaatif.physicssimapp.Screens;
 
 import com.badlogic.gdx.Screen;
 import com.badlogic.gdx.graphics.Color;
-import com.badlogic.gdx.graphics.OrthographicCamera;
 import com.badlogic.gdx.utils.ScreenUtils;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import io.eisaatif.physicssimapp.Application;
+import io.eisaatif.physicssimapp.UI.Button;
+import io.eisaatif.physicssimapp.UI.Extras;
+import io.eisaatif.physicssimapp.sudoku.Sudoku;
 
-import static io.eisaatif.physicssimapp.Extras.*;
+import static io.eisaatif.physicssimapp.UI.Extras.*;
 
 public class MainLogicScreen implements Screen {
     private Application application;

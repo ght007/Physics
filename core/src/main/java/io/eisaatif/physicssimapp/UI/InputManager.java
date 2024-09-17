@@ -1,4 +1,4 @@
-package io.eisaatif.physicssimapp;
+package io.eisaatif.physicssimapp.UI;
 
 import com.badlogic.gdx.InputProcessor;
 

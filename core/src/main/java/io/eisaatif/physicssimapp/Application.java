@@ -1,11 +1,11 @@
 package io.eisaatif.physicssimapp;
 
 import com.badlogic.gdx.Game;
-import com.badlogic.gdx.graphics.Texture;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
-import com.badlogic.gdx.utils.ScreenUtils;
+import io.eisaatif.physicssimapp.UI.Extras;
+
 public class Application extends Game {
 
     public SpriteBatch batch;

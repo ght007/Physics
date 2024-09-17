@@ -1,14 +1,13 @@
-package io.eisaatif.physicssimapp;
+package io.eisaatif.physicssimapp.Screens;
 
 import com.badlogic.gdx.Screen;
-import com.badlogic.gdx.utils.ScreenUtils;
+import io.eisaatif.physicssimapp.Application;
 
-public class MainMathScreen implements Screen {
+public class MainCompSciScreen implements Screen {
     private Application application;
 
-    public MainMathScreen(Application application) {
+    public MainCompSciScreen(Application application) {
         this.application = application;
-
     }
 
     @Override
@@ -18,7 +17,7 @@ public class MainMathScreen implements Screen {
 
     @Override
     public void render(float delta) {
-        ScreenUtils.clear(0.18f, 0.17f, 0.19f, 0);
+
     }
 
     @Override

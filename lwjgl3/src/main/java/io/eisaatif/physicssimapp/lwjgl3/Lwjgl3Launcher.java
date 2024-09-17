@@ -3,8 +3,7 @@ package io.eisaatif.physicssimapp.lwjgl3;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3Application;
 import com.badlogic.gdx.backends.lwjgl3.Lwjgl3ApplicationConfiguration;
 import io.eisaatif.physicssimapp.Application;
-import io.eisaatif.physicssimapp.Extras;
-import io.eisaatif.physicssimapp.sudoku.SudokuSolver;
+import io.eisaatif.physicssimapp.UI.Extras;
 
 /** Launches the desktop (LWJGL3) application. */
 public class Lwjgl3Launcher {

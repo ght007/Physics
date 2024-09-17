@@ -6,8 +6,15 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.utils.ScreenUtils;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 import com.badlogic.gdx.utils.viewport.Viewport;
+import io.eisaatif.physicssimapp.Screens.MainCompSciScreen;
+import io.eisaatif.physicssimapp.Screens.MainLogicScreen;
+import io.eisaatif.physicssimapp.Screens.MainMathScreen;
+import io.eisaatif.physicssimapp.Screens.MainPhysicsScreen;
+import io.eisaatif.physicssimapp.UI.Button;
+import io.eisaatif.physicssimapp.UI.Extras;
+import io.eisaatif.physicssimapp.UI.InputManager;
 
-import static io.eisaatif.physicssimapp.Extras.*;
+import static io.eisaatif.physicssimapp.UI.Extras.*;
 
 public class MainMenuScreen implements Screen {
     private Button math;

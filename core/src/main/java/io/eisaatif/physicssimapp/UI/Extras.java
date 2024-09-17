@@ -1,4 +1,4 @@
-package io.eisaatif.physicssimapp;
+package io.eisaatif.physicssimapp.UI;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.g2d.BitmapFont;
